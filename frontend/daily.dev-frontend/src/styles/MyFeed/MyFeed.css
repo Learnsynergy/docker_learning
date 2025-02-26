@@ -1,0 +1,57 @@
+
+
+.myfeed-container1{
+  background-color: #0E1217;
+  color: aliceblue;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.myfeed-button{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  width: fit-content;
+  background-color: #1A1F26;
+  border: none;
+  height: 2.5rem;
+  border-radius: 12px;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.myfeed-container2 {
+    background-color: #0E1217;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+    
+  }
+
+  @media (max-width:500px) {
+    .myfeed-container2{
+      grid-template-columns: repeat(1,1fr);
+    }
+       
+  }
+  @media (min-width:501px) and (max-width: 720px){
+    .myfeed-container2{
+      grid-template-columns: repeat(1,1fr);
+    }
+    
+  }
+
+  @media (min-width:721px) and (max-width:1300px){
+    .myfeed-container2{
+      grid-template-columns: repeat(2,1fr);
+     
+    }
+  }
+
+  @media (min-width:1301px ) and (max-width:3000px){
+    .myfeed-container2{
+      grid-template-columns: repeat(3,1fr);
+      gap: 0;
+    }
+  }
+  

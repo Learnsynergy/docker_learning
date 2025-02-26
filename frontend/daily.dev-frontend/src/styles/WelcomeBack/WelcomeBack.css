@@ -1,0 +1,82 @@
+/* 
+A revoir!!!!!!!!!!!!!!
+:root {
+  --primary-bg-color: #1a1a1a;
+  --secondary-bg-color: #2b2b2b;
+  --accent-color: #4caf50;
+  --text-color: #fff;
+  --light-grey-color: #4d4d4d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--primary-bg-color);
+}
+
+.WelcomeBack-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--text-color);
+}
+
+.WelcomeBack-header {
+  margin-bottom: 2rem;
+}
+
+.dailydev-logo {
+  height: 2.5rem;
+}
+
+.WelcomeBack-content {
+  text-align: center;
+  width: 80%;
+  max-width: 25rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+.user-info {
+  margin: 1rem 0;
+}
+
+.user-avatar {
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.WelcomeBack-button {
+  background-color: var(--secondary-bg-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.google-logo {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.switch-account,
+.sign-up {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+} */

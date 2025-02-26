@@ -1,0 +1,28 @@
+.custom-button {
+  width: fit-content;
+  text-align: center;
+  text-transform: none;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  align-self: center;
+  margin-left: 8px;
+  font-size: 17px;
+  padding: 16px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+.custom-button:hover {
+background-color: #a8b3cf;
+}
+
+@media screen and (max-width: 600px) {
+  
+    /* Add responsive styles here */
+  
+}

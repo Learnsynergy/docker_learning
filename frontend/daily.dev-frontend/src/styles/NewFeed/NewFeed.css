@@ -1,0 +1,73 @@
+
+
+.new-feed-container {
+    background-color: #0E1217;
+    color: white;
+  }
+
+  .new-feed-container1-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background-color: #1C1F26;
+    border-bottom: 1px solid #CE3DF3;
+
+  }
+  
+  .feed-name-input {
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .tag-button {
+    background-color: #1A1F26;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .tag-button.selected {
+    background-color: #4a4a4a;
+  }
+  
+  .actions-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .discard-button, .save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .discard-button {
+    background-color: #2D313A;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #383D47;
+    color: white;
+  }
+  
+  

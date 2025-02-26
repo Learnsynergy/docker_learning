@@ -1,0 +1,124 @@
+.onboarding-wrapper{
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.paragraph{
+    width: 45%;
+}
+#mail:hover{
+background-color: #a8b3cf28;
+}
+
+.title-onboarding{
+    font-size: 30px;
+    line-height: 2rem;
+}
+.onboarding-p{
+    font-size: 20px;
+}
+.btn-login:hover{
+    background-color: #a8b3cf28;
+    transition-timing-function: 2s  ease-in-out;
+    box-shadow: 0px 14px 14px -6px #000000a3;
+}
+
+.btn-login-media{
+    width: 100%;
+}
+.media-onboard-btn:hover{
+   background-color: #a8b3cf;
+  
+}
+.header-onboarding{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+}
+
+#mail{
+    box-shadow: inset 2px 0 0 0 red;
+}
+
+
+.container-onboarding{
+    display: flex;
+    background-image: url('../../images/onboardingImg.webp');
+    background-size: cover;
+    background-position: 15px;
+    justify-content: center;
+    width: 100%;
+   background-attachment: fixed;
+   overflow-y: hidden;
+   
+}
+
+@media (max-width:900px) {
+    .container-onboarding {
+            display: flex;
+            background-size: cover;
+            background-image: url('../../images/onboardingmobileimg.webp');
+            overflow-x: hidden;
+            width: 100%;
+            }
+                        .paragraph {
+                            width: 100%;
+                        }
+#mail{
+    height: 3em;
+}
+                        .title-onboarding{
+                            font-size: 25px;
+                            line-height: 30px;
+                            margin-top: 10px;
+                        }
+                        .onboarding-wrapper{
+                            overflow-x: hidden;
+                            padding: 0;
+                            width: 90%;
+                        }
+                        .input-onboarding{
+                            width: 100%;
+                        }
+
+                        .onboarding-p{
+                            font-size: 15px;
+                            line-height: 20px;
+                        }
+
+                    .already-using{
+                        display: none;
+                    }
+                    .btn-login{
+                        padding: 5px;
+                        font-size: 13px;
+                    }
+                    .footer-onboarding{
+                       
+                        font-size: 10px;
+                       
+                    }
+                    body{
+                        overflow-x: hidden;
+                    }
+                    .media-onboard-btn{
+                        height: 3em;
+                        width: 90%;
+                    }
+                    .line{
+                        width: 30%;
+                        
+                    }
+                    .signup{
+                        font-size: 12px;
+                    }
+                    .full-line{
+                        margin-top: 0;
+                    }
+                    .arrow{
+                        font-size: 10px;
+                    }
+}
